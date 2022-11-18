@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Robotobold.ttf");
+    font-weight: bold;
+}
+
+.logo-img {
+    width: 130px;
+    height: 100px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 25px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    vertical-align: bottom;
+}
+
+.menu {
+    margin-left: 244px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 115px;
+}
+
+.menu-item a {
+    font-size: 20px;
+    color: #030305;
+    text-decoration: none
+}
+
+.menu-item a:hover {
+    border-bottom: 2px solid red;
+}
+
+
+.main {
+    background-image: url(../images/stambul2.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 880px 850px;
+    padding: 104px 0 154px 0;
+}
+
+.main-info {
+    max-width: 855px;
+}
+
+.main-title {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
+    color: red;
+    margin-bottom: 40px;
+}
+
+.main-text {
+    font-size: 16px;
+    line-height: 130%;
+    color: red;
+    margin-bottom: 40px;
+    max-width: 502px;
+}
+
+.me {
+    background-image: url(../images/muzhchina.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 130px 0 50px 0;
+    background-size: 400px 400px;
+}
+
+.about-me {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 70px;
+    color: #030305;
+    text-align: center;
+}
+
+.about-me-title {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #030305;
+    padding: 15px 0 17px 0;
+    text-align: center;
+}
+
+.about-me-box {
+    text-align: center;
+}
+
+.price {
+    overflow: hidden;
+}
+
+.price .container {
+    position: relative;
+    padding-bottom: 150px;
+}
+
+.price .sub-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.price-text {
+    font-size: 16px;
+    line-height: 130%;
+    color: #5D5D5F;
+    margin-bottom: 60px;
+}
+
+.price-form {
+    max-width: 344px;
+}
+
+
+.price .button {
+    width: 100%;
+}
+
+.price-image {
+    position: absolute;
+    bottom: 0;
+    left: 401px;
+}
